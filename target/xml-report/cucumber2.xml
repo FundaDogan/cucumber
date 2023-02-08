@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="38.436" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="US_03_Parameter" name="TC06 user should be able to search desk in amazon using parameter" time="27.415">
+<system-out><![CDATA[
+Given user goes to Amazon page..............................................passed
+When user search for "desk".................................................passed
+Then verify results contains "desk".........................................passed
+And close the application...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_06 OpenSource Negative Login" name="TC01 user should not be login with wrong username" time="10.436">
+<system-out><![CDATA[
+Given user goes to "open_source_URL"........................................passed
+And user enters wrong username..............................................passed
+And user enters wrong password..............................................passed
+And clicks on login.........................................................passed
+Then verify login is not successful.........................................passed
+And close the application...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

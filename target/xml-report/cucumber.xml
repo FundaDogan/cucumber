@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="35.301" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="US_04_ConfigUrl" name="TC08 use parameter from config reader" time="23.449">
+<system-out><![CDATA[
+Given user goes to "amazon_url".............................................passed
+Then user waits for 2 seconds...............................................passed
+Then verify url contains "amazon"...........................................passed
+And close the application...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_06 OpenSource Negative Login" name="TC01 user should not be login with wrong username" time="11.254">
+<system-out><![CDATA[
+Given user goes to "open_source_URL"........................................passed
+And user enters wrong username..............................................passed
+And user enters password....................................................passed
+And clicks on login.........................................................passed
+Then verify login is not successful.........................................passed
+And close the application...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
